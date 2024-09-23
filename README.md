@@ -1,4 +1,4 @@
-# Zscaler Docker
+# Tesla Zscaler Docker
 
 This provides the flexibility to run Zscaler's client connector from a Docker container and without the need to conform to any specific device posture profiles.
 
@@ -14,4 +14,4 @@ docker run --name "zscaler-docker" --network host -e ZSCALER_DEBUG=true -p 9002:
 ```
 
 ## Authentication
-Once the container is up and running, the user is able to authenticate via https://localhost:9002. Once authenticated the connector will establish an encrypted tunnel to access Tesla internal network.
+Once the container is up and running, the user is able to authenticate via https://localhost:9002. Once authenticated the connector will establish an encrypted tunnel to access internal resources.
