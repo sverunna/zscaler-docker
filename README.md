@@ -10,7 +10,7 @@ docker pull sverunna/zscaler-docker:latest
 Run container. The net flag is required by zscaler.
 To run in background, add the --detach flag.
 ```
-docker run --name "zscaler-docker" --network host -e ZSCALER_DEBUG=true -p 9002:9002 -v /:/= zscaler-docker
+docker run --name "zscaler-docker" --network host -e ZSCALER_DEBUG=true -p 9002:9002 -v /:/= sverunna/zscaler-docker:latest
 ```
 
 ## Authentication
